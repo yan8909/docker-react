@@ -6,4 +6,4 @@ berfore_install:
     - docker build -t yan8909/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run -e CI=true USERNAME/docker-react npm run test
+    - docker run -e CI=true yan8909/docker-react npm run test
